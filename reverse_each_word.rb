@@ -1,6 +1,6 @@
 
 def reverse_each_word(word)
-  word.collect do |x| 
+  word.each do |x| 
     # "#{x}"
   # end
 
