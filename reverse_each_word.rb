@@ -5,7 +5,7 @@ def reverse_each_word(word)
   # end
 
 
-  new_arr = "#{x}".split.reverse.join(' ')
+  new_arr = "#{x}.split.reverse.join(' ')"
 
   # "[#{new_arr}].split.reverse.join (" ")"
   # new_word << "#{new_word}.reverse"
