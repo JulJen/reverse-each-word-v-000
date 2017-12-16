@@ -1,10 +1,6 @@
 
 def reverse_each_word(word)
   word.each do |x|
-    # "#{x}"
-  # end
-
-
   new_arr = "#{x}.split.reverse.join(' ')"
 
   puts "#{new_arr}"
