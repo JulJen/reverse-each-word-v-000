@@ -1,6 +1,6 @@
 
 def reverse_each_word(word)
-  new_arr = word.slice.(word.length-1).join(' ')
+  new_arr = word.split.reverse.join(' ')
   "#{new_arr}"
   # "[#{new_arr}].split.reverse.join (" ")"
   # new_word << "#{new_word}.reverse"
