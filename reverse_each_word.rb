@@ -1,6 +1,6 @@
 
 def reverse_each_word(word)
-  new_arr = word.sort.reverse
+  new_arr = word.reverse.sort
   "#{new_arr}"
   # "[#{new_arr}].split.reverse.join (" ")"
   # new_word << "#{new_word}.reverse"
